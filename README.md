@@ -4,8 +4,8 @@
 2. Dockerfile `EXPOSE 8080`
 3. Cloud Run default container port set to 8080 (change it at -> 'Edit & Deploy New Revision')
 4. Docker Build. `⌘⇧P: Docker: Build Image`
-5. Google Container Registry GCR. `gcloud builds submit --tag gcr.io/cloudrunmyproject/helloworldngclient`
-6. Deploy Cloud Run. `gcloud run deploy --image gcr.io/cloudrunmyproject/helloworldngclient --platform managed --allow-unauthenticated`
+5. Google Container Registry GCR. `gcloud builds submit --tag gcr.io/cloudrunmyproject/myservice`
+6. Deploy Cloud Run. `gcloud run deploy --image gcr.io/cloudrunmyproject/myservice --platform managed --allow-unauthenticated`
 
 
 ## Authentication using Google Sign-In
