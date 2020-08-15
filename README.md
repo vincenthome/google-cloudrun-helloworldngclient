@@ -1,4 +1,4 @@
-# Cloud Run Angular Client
+# Google Cloud Run Angular Client
 
 1. Change nginx.conf to listen to port 8080 - `listen 8080;`
 2. Dockerfile `EXPOSE 8080`
